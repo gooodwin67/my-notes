@@ -1,2 +1,2 @@
-# Getting Started with Create React App
+# My Notes
 My first app in React
