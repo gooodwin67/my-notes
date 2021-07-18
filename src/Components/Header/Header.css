@@ -1,0 +1,10 @@
+.header_style {
+    padding: 15px 0;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(223, 223, 223, 0.7);
+}
+.header_style .wrap1300 {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}

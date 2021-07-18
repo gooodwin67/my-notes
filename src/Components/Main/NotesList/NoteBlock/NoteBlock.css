@@ -1,0 +1,13 @@
+.note_block_style {
+    width: 15%;
+    height: 150px;
+    background-color: #fff;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 13px;
+    color: #777;
+    box-shadow: 19px 12px 29px -7px #0000001C;
+
+}
