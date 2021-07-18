@@ -9,5 +9,6 @@
     font-size: 13px;
     color: #777;
     box-shadow: 19px 12px 29px -7px #0000001C;
+    overflow: hidden;
 
 }
