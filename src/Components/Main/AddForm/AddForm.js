@@ -9,10 +9,10 @@ export function AddForm(props) {
         props.addNote();
     }
     return (
-        <div className = 'add_form_style'>
+        <div className='add_form_style'>
             <h5>Type new note</h5>
-            <textarea value={props.value} onChange={changeTextArea} placeholder = 'type here...'/>
-            <button onClick={addNote}>SAVE NOTE</button>
+            <textarea value={props.value} onChange={changeTextArea} placeholder='type here...' />
+            <button onClick={addNote}>ADD NOTE</button>
         </div>
     )
 }

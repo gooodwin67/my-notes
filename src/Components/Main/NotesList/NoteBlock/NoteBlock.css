@@ -1,14 +1,67 @@
 .note_block_style {
-    width: 15%;
     height: 150px;
     background-color: #fff;
-    margin: 0 10px;
-    margin-bottom: 20px;
-    padding: 20px;
+    margin-bottom: 30px !important;
     box-sizing: border-box;
     font-size: 13px;
-    color: #777;
+    color: #777 !important;
     box-shadow: 19px 12px 29px -7px #0000001C;
     overflow: hidden;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.note_block_style .navlink {
+    width: 70%;
+    height: 70%;
+    display: inline-block;
+}
+.note_block_style pre {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    overflow: hidden;
+    color: #777 !important;
+    border: none;
+    box-sizing: border-box;
+    padding: 0;
+    white-space: break-spaces;
+    transition: 0.5s;
+}
+.note_block_style button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    opacity: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.note_block_style .button_edit {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.5s;
+}
+.note_block_style:hover button {
+    opacity: 1;
+    
+}
+.note_block_style:hover {
+    background-color: rgb(66, 66, 66);
+    color: #fff;
+}
+.note_block_style:hover pre {
+    opacity: 0.3;
+    color: #fff;
+    background: rgb(66, 66, 66)
 }

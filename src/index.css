@@ -4,10 +4,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #F0F0F0;
+  min-height: 100vh;
 }
 .wrap1300 {
   display: flex;
   max-width: 1300px;
   margin: 0 auto;
-  padding: 0 10px;
+  
 }
